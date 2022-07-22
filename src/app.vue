@@ -1,7 +1,6 @@
 <template>
   <autoComplete :value="value" :items="items" />
 </template>
-./components/autoComplete.vue
 
 <script lang="ts" setup>
 import autoComplete from "./components/autoComplete.vue";
