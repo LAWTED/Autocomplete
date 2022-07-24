@@ -13,9 +13,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/components/main.ts",
-      name: "Autocomplete",
+      name: "vue3-autocomplete",
       // the proper extensions will be added
-      fileName: "AutoComplete",
+      fileName: "vue3-autoComplete",
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
