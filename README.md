@@ -1,16 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# 编写工程化的业务模块
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 题目描述
 
-## Recommended IDE Setup
+不限语言，不限框架，完成一个 `Autocomplete` 组件。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## 代码要求
 
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- [x] 样式不是考察的重点，可以参考 https://ant.design/components/auto-complete-cn/ 来完成样式部分，也可以参考其它组件库的 `Autocomplete`，不需要像素级别还原
+- [x] 你认为过于复杂的细节可以不实现，我们考察的是代码组织能力、抽象能力、代码风格等方面
+- [x] 单元测试的 coverage 越高越好
+- [x] 以 GitHub repo 的形式存放你的代码，`CI/CD` 越自动越好。比如 push 之后的 `lint`，`test`，`codestyle` 检查，
+- [ ] `git push tags` 之后的自动发布到 `npm` 等
